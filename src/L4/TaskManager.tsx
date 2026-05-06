@@ -383,7 +383,7 @@ function TaskManager() {
                             onChange={(e) => setNewDate(e.target.value)} />
 
                         <button onClick={saveEdit}>Save</button>
-                        <button onClick={() => setIsModalOpen(false)}>Cancel</button>
+                        <button onClick={() => setIsModalOpen(false)}>Cancel</button >
 
                     </div>
                 )}
@@ -415,3 +415,4 @@ function TaskManager() {
 
 export default TaskManager
 
+  
